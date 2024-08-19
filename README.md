@@ -8,16 +8,6 @@
 *** Thanks again! Now go create something AMAZING! :D
 -->
 
-
-
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
 <h3 align="center">End to End Football Analytics (Web-scraping -> Dashboard) </h3>
 
   <p align="center">
