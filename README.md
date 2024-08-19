@@ -71,8 +71,6 @@ The goal of this project was to create a dashboard using Power BI for football d
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
