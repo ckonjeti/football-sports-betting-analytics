@@ -57,34 +57,15 @@ The goal of this project was to create a dashboard using Power BI for football d
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
+### Installation
+Clone the repo
+  ```sh
+  git clone https://github.com/ckonjeti/football-sports-betting-analytics.git
+  ```
 Use pip to install the necessary packages specified in the requirements.txt file in the repo.
   ```sh
   pip install -r requirements.txt
   ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -103,10 +84,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Web scraping Pro Football Reference website for football player and team data
+- [ ] Ingesting tables into Snowflake
+- [ ] Writing AWS Lambda function for weekly cadence to collect new game data
+- [ ] Developing dashboard UI using Power BI
+- [ ] Running models to predict team and player performance
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
